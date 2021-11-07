@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: rgb(160, 120, 86);
+    text-align: center;
+  }
+  card{
+      color: rgb(155, 151, 46);
+      font-family: verdana;
+      font-size: 20px;
+  }
