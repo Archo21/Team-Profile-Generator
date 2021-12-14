@@ -7,8 +7,8 @@ function generateEngineerHtml(engineer) {
 
 <div class="card">
    <div class="card-header">
-       <h2 class="card-title">${engineer.getName()}</h2>
-       <h3 class="card-title">${engineer.getRole()}</h3>
+       <h2 class="card-title text center">${engineer.getName()}</h2>
+       <h3 class="card-title text center"><i class="fas fa-glasses mr-2"></i>${engineer.getRole()}</h3>
    </div>
    <div class="card-body">
        <ul class="list-group">
@@ -28,7 +28,7 @@ function generateInternHtml(intern) {
             <div class="card">
                 <div class="card-header">
                     <h2 class="card-title">${intern.getName()}</h2>
-                    <h3 class="card-title">Intern</h3>
+                    <h3 class="card-title"><i class="fas fa-user-graduate mr-2"></i>Intern</h3>
                 </div>
                 <div class="card-body">
                     <ul class="list-group">
@@ -51,7 +51,7 @@ function generateManagerHtml(manager) {
         <div class="card">
             <div class="card-header">
                 <h2 class="card-title">${manager.getName()}</h2>
-                <h3 class="card-title">Manager</h3>
+                <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>Manager</h3>
             </div>
             <div class="card-body">
                 <ul class="list-group">
@@ -87,6 +87,7 @@ return teamHtml.join("")
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
      <link rel="stylesheet" href="/style.css"/>
+     <script src=“https://kit.fontawesome.com/c502137733.js”></script>
 </head>
 
 <body>
